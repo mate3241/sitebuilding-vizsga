@@ -10,5 +10,17 @@
   <a href=first-task.html><button type="submit">Back</button></a>
 
   </div>
+  <form id="form" name="form" action="valami.html" method="post" target="_blank">
+    <fieldset>
+      <label for="nname">nickname:</label>
+      <input type="text" name="nname" /><br />
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <button type="submit" onclick="alert('Success')">Send</button>
+    </fieldset>
+  </form>
+
   </body>
 </html>
